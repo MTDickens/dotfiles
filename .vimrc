@@ -1,6 +1,12 @@
 " User defined features
 set nu
 
+" disable temp files (end with ~)
+set nobackup       " no backup files
+set noswapfile     " no swap files
+set nowritebackup  " only in case you don't want a backup file while editing
+set noundofile     " no undo files
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>

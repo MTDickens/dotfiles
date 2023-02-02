@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-files="bashrc zshrc vimrc"
+files="bashrc zshrc vimrc gitconfig"
 
 for file in $files; do
 	rm ~/.$file

@@ -1,0 +1,11 @@
+[proxy]
+	https = socks5://172.28.208.1:10808
+[user]
+	name = MTDickens
+	password = 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
+[credential]
+	helper = store
+[alias]
+	graph = log --all --graph --decorate --oneline
+[core]
+	excludesfile = /root/.gitignore_global
