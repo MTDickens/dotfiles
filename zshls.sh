@@ -3,5 +3,6 @@
 files="bashrc zshrc vimrc"
 
 for file in $files; do
-	ln -s ~/dotfiles/$file ~/.$file
+	rm ~/.$file
+	ln -s ~/dotfiles/.$file ~/.$file
 done
