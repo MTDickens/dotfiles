@@ -1,6 +1,6 @@
 :warning:**Warning:** The files aren't configured correctly, so please **don't use them** for now. And I shall fix the problem later.
 
-# Discription
+# Description
 
 These are the collections of my dotfile configurations. Feel free to download and alter.
 
