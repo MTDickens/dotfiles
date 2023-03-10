@@ -1,5 +1,7 @@
 # dotfiles 一键拷贝脚本
 
+[English README](README.md)
+
 这个 bash 脚本能够将指定的文件从 `dotfiles` 文件夹拷贝到用户的 home 目录中，并覆盖同名文件。
 
 ## 使用方法
