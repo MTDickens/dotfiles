@@ -1,11 +1,10 @@
 # One-click script for copying dotfiles
 =======
-:warning:**Warning:** The files aren't configured correctly, so please **don't use them** for now. And I shall fix the problem later.
+**Warning:** The files aren't configured correctly, so please **don't use them** for now. And I shall fix the problem later.
 
 # Description
 
 These are the collections of my dotfile configurations. Feel free to download and alter.
->>>>>>> a90457f1f102dbc6591f60da11cb8e5a01a38f7d
 
 [中文文档](README_zh_cn.md)
 
