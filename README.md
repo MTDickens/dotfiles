@@ -1,6 +1,6 @@
 # One-click script for copying dotfiles
 
-[中文文档]("README_zh_cn.md")
+[中文文档](README_zh_cn.md)
 
 This bash script can copy specified files from the `dotfiles` folder to the user's home directory and overwrite existing files with the same name.
 
