@@ -33,7 +33,6 @@ This bash script can copy specified files from the `dotfiles` folder to the user
 The script can accept an optional argument to specify the file name of the file list to be copied. If no argument is specified, the script will read the file list from `list.txt` by default.
 
 ```
-bashCopy code
 ~/dotfiles.sh <file_list>
 ```
 
