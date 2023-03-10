@@ -8,7 +8,7 @@
 These are the collections of my dotfile configurations. Feel free to download and alter.
 >>>>>>> a90457f1f102dbc6591f60da11cb8e5a01a38f7d
 
-[中文文档]("README_zh_cn.md")
+[中文文档](README_zh_cn.md)
 
 This bash script can copy specified files from the `dotfiles` folder to the user's home directory and overwrite existing files with the same name.
 
