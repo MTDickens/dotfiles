@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # One-click script for copying dotfiles
 =======
 :warning:**Warning:** The files aren't configured correctly, so please **don't use them** for now. And I shall fix the problem later.
