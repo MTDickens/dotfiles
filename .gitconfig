@@ -2,9 +2,9 @@
 	https = socks5://172.28.208.1:10808
 [user]
 	name = MTDickens
-	password = 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
+	password = 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
 [credential]
-	helper = store
+	helper = cache --timeout=3600
 [alias]
 	graph = log --all --graph --decorate --oneline
 [core]

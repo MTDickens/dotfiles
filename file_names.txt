@@ -1,0 +1,4 @@
+.vimrc
+.bashrc
+.zshrc
+.gitconfig

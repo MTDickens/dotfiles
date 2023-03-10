@@ -7,14 +7,18 @@ alias mtd='/home/mtdickens'
 alias hsk='/home/mtdickens/haskell-mooc/exercises'
 alias cls='clear'
 alias ghci='stack ghci'
+alias ghic='stack ghci'
 alias runhaskell='stack runhaskell'
 alias runhsk=runhaskell
 alias dc='cd'
+alias wr='rlwrap'
+alias python='python3'
+alias msi='rlwrap mit-scheme'
 
 # system proxy
 export hostip=$(cat "/etc/resolv.conf" | grep "nameserver" | awk '{print $2}')
 
-alias proxyon='export ALL_PROXY="http://${hostip}:10809";export https_proxy=$ALL_PROXY;export http_proxy=$ALL_PROXY'
+alias proxyon='export ALL_PROXY="http://${hostip}:10811";export https_proxy=$ALL_PROXY;export http_proxy=$ALL_PROXY'
 alias proxyoff='unset ALL_PROXY;unset http_proxy;unset https_proxy'
 
 # security
