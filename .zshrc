@@ -18,8 +18,8 @@ alias msi='rlwrap mit-scheme'
 # system proxy
 export hostip=$(cat "/etc/resolv.conf" | grep "nameserver" | awk '{print $2}')
 
-alias proxyon='export ALL_PROXY="http://${hostip}:10811";export https_proxy=$ALL_PROXY;export http_proxy=$ALL_PROXY'
-alias proxyoff='unset ALL_PROXY;unset http_proxy;unset https_proxy'
+alias proxy='export ALL_PROXY="http://${hostip}:10811";export https_proxy=$ALL_PROXY;export http_proxy=$ALL_PROXY'
+alias unproxy='unset ALL_PROXY;unset http_proxy;unset https_proxy'
 
 # security
 setopt HIST_IGNORE_SPACE
